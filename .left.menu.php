@@ -1,9 +1,15 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Учёт посещаемости Студентов", 
-		"/marketplace/app/44/",
-//		"/uchebnyy-protsess", 
+		"Учёт посещаемости", 
+		"/uchebnyy-protsess", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Просмотр посещаемости и отчеты", 
+		"/uchebnyy-protsess/uchet-poseshchaemosti-dlya-kuratorov.php", 
 		Array(), 
 		Array(), 
 		"" 
@@ -24,8 +30,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Распределение студентов", 
-		"/marketplace/app/49/",
-//		"/uchebnyy-protsess/raspredelenie-studentov.php", 
+		"/uchebnyy-protsess/raspredelenie-studentov.php", 
 		Array(), 
 		Array(), 
 		"" 
